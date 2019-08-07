@@ -1,0 +1,63 @@
+<div class="sether-container">
+  <div class="sether-nb">
+    Use the sether token obtained from the <a href="https://app.sether.com/#/user/api">Sether Dashboard</a>
+  </div>
+  <div class="input-group input-group-lg sether-token-input">
+    <div class="input-group-prepend">
+      <span class="input-group-text mb-4 " id="inputGroup-sizing-lg">Sether Token</span>
+    </div>
+    <input type="text" class="form-control mb-4 sether-run-btn" aria-label="Large"
+           aria-describedby="inputGroup-sizing-sm" value="{{setherToken}}">
+  </div>
+  <div class="sether-nb">
+    Use the target id associated with your campaign.
+  </div>
+  <div class="input-group input-group-lg sether-target-id">
+    <div class="input-group-prepend">
+      <span class="input-group-text mb-4 " id="inputGroup-sizing-lg">Target ID</span>
+    </div>
+    <input type="text" class="form-control mb-4 sether-run-btn" aria-label="Large"
+           aria-describedby="inputGroup-sizing-sm" value="{{targetID}}">
+  </div>
+  <div class="sether-nb">
+    Hit Run to get the wheels moving through blockchain!
+  </div>
+  <button type="button" class="btn btn-primary sether-run-btn" (click)="onRunContract()">Run</button>
+  <div class="sether-blockchain-call">
+    <div class="sether-paragraph">
+      <span [class.hidden]="!methodCallStatus.InProgress">Method call in progress</span>
+      <span [class.hidden]="!methodCallStatus.InProgress" class="spinner-border text-info sether-running"
+            role="status">
+    </span>
+    </div>
+    <div class="sether-paragraph">
+    <span [class.hidden]="!methodCallStatus.Succeeded">Blockchain call finished successfully! See transaction
+    <a href="https://rinkeby.etherscan.io/tx/{{methodCallStatus.Result.transactionHash}}"
+       target="_blank">here</a>.
+    </span>
+    </div>
+    <div class="sether-paragraph">
+      <span [class.hidden]="!methodCallStatus.Failed">Blockchain call finished with error:
+        <span class="sether-error">{{methodCallStatus.Error}}</span>
+    </span>
+    </div>
+  </div>
+
+  <div class="sether-blockchain-call">
+    <div class="sether-paragraph">
+      <span [class.hidden]="!eventStatus.InProgress">Waiting for event on the blockchain</span>
+      <span [class.hidden]="!eventStatus.InProgress" class="spinner-border text-info sether-running"
+            role="status">
+    </span>
+    </div>
+    <div class="sether-paragraph">
+    <span [class.hidden]="!eventStatus.Succeeded">Received Event from the Sether API: targetAchived: {{eventStatus.Result.targetAchieved}}
+    </span>
+    </div>
+    <div class="sether-paragraph">
+      <span [class.hidden]="!eventStatus.Failed">Wait for event finished with error:
+        <span class="sether-error">{{eventStatus.Error}}</span>
+    </span>
+    </div>
+  </div>
+</div>

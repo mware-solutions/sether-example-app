@@ -1,0 +1,6 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 50px;
+  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+}

@@ -1,0 +1,18 @@
+.sether-container {
+    width: 80%;
+}
+
+.sether-run-btn {
+
+}
+
+.sether-running {
+  float: right;
+}
+
+.sether-error {
+  color: red;
+}
+.hidden {
+  display: none;
+}

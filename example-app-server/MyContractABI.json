@@ -1,0 +1,739 @@
+{
+"abi": [
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_impressions_paid",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x0f764621"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_post_comments",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x14786722"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_page_likes",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x1fb7f890"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_impressions_unique",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x21b9ecc0"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_fans",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x3ddaf556"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_adrecall",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x4857f476"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_post_shares",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x59dbee24"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_setherAddress",
+        "type": "address"
+      }
+    ],
+    "name": "put_sether_address",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x6fee2c76"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_post_engagements",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x70324c40"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "enable",
+        "type": "bool"
+      }
+    ],
+    "name": "enable_logging",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x7e60ec21"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_3s_video_views3SecondViews",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x89438a1d"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_ctr",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x9b693eff"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_impressions",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xba370c3c"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_fans_day",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xbc900f51"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_post_reactions",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xbcae9830"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_clicks",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xc0c0f7bf"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_engaged_users",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xc1ef1681"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_impressions",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xc79a3e13"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_video_views",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xd104def1"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "authToken",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "get_facebook_spec_page_views_total",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xf7282c9b"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor",
+    "signature": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "targetAchieved",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "MyEvent",
+    "type": "event",
+    "signature": "0x9a3ce980fc9bc5f64f41e0436a8dbfa6e99e70b4cd22413f89fb2606b033d25a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherToken",
+        "type": "bytes32"
+      },
+      {
+        "name": "date",
+        "type": "bytes32"
+      },
+      {
+        "name": "targetId",
+        "type": "bytes32"
+      },
+      {
+        "name": "level",
+        "type": "uint8"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "checkFacebookLikesTarget",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0x34dcc76a"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "setherMetric",
+        "type": "uint64"
+      },
+      {
+        "name": "requestID",
+        "type": "bytes32"
+      }
+    ],
+    "name": "callback",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xd1bb2f34"
+  }
+]
+}
